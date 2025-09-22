@@ -1,0 +1,36 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Env & secrets
+.env
+**/.env
+.env.*
+
+# Build outputs
+frontend/dist/
+**/dist/
+backend/uploads/
+coverage/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python (ml_service)
+ml_service/.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Misc
+*.local
+*.cache

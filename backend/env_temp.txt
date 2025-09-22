@@ -1,0 +1,5 @@
+# MongoDB Atlas Connection String
+MONGO_URI=mongodb+srv://myaiprogrammer:R4DVnkImQI3EcV4Y@cluster0.ius8qrt.mongodb.net/try1db?retryWrites=true&w=majority&appName=Cluster0
+
+# Server Configuration
+PORT=5000 

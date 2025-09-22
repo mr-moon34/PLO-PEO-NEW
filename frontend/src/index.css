@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Improve touch handling on mobile */
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+/* Prevent text selection on buttons */
+button, a {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Improve button touch targets */
+button, a {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Remove touch delay on mobile */
+@media (hover: none) and (pointer: coarse) {
+  button, a {
+    touch-action: manipulation;
+  }
+}
+
+.pdf-table-wrapper, .pdf-chart-wrapper {
+  background: #fff !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
