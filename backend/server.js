@@ -17,7 +17,8 @@ const PORT = process.env.PORT || 5001;
 // Middleware
 const allowedOrigins = [
   "https://plo-peo-1.onrender.com",
-  "http://localhost:5173"
+  "http://localhost:5173",
+  "https://plo-peo-new-frontend.onrender.com"
 ];
 app.use(cors({
   origin: allowedOrigins,
